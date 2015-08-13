@@ -57,7 +57,7 @@ function GameServer() {
         borderTop: 0, // Top border of map (Vanilla value: 0)
         borderBottom: 6000, // Bottom border of map (Vanilla value: 11180.3398875)
         spawnInterval: 20, // The interval between each food cell spawn in ticks (1 tick = 50 ms)
-        foodSpawnAmount: 10, // The amount of food to spawn per interval
+        foodSpawnAmount: 999, // The amount of food to spawn per interval
         foodStartAmount: 100, // The starting amount of food in the map
         foodMaxAmount: 500, // Maximum food cells on the map
         foodMass: 1, // Starting food size (In mass)
